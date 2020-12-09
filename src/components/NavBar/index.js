@@ -51,7 +51,7 @@ const NavBar = () => {
                 <NavLinks to="/images">Books</NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="/destinations">Contact</NavLinks>
+                <NavLinks to="/contact">Contact</NavLinks>
               </NavItem>
             </NavMenu>
           </NavbarContainer>

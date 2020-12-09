@@ -8,7 +8,7 @@
   /* font-family: "Permanent Marker", cursive; */
 }
 
-/* .destinations {
+.contact {
   text-align: center;
   background: url("../assets/images/background.jpg") center center/cover
     no-repeat;
@@ -18,9 +18,26 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
   object-fit: contain;
   margin-top: -80px;
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-size: 8rem;
-} */
+}
+
+.about {
+  text-align: center;
+  background: url("../assets/images/background.jpg") center center/cover
+    no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+  object-fit: contain;
+  margin-top: -80px;
+  color: rgb(255, 255, 255);
+  font-size: 8rem;
+}

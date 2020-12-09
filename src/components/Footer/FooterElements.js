@@ -8,7 +8,7 @@ export const FooterContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: c;
+  align-items: center;
 `
 
 export const SocialMedia = styled.section`
@@ -18,11 +18,11 @@ export const SocialMedia = styled.section`
 
 export const SocialMediaWrap = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   width: 90%auto;
   max-width: 1000px;
-  margin: 20px auto;
+  margin: 20px;
 
   @media screen and (max-width: 820px) {
     flex-direction: column;
@@ -38,10 +38,12 @@ export const SocialLogo = styled(Link)`
   display: flex;
   align-items: center;
   margin-bottom: 16px;
+  margin-left: 2rem;
 `
 
 export const SocialIcon = styled(GiBookshelf)`
   margin-right: 10px;
+  margin-top: -5px;
 `
 
 export const WebsiteRights = styled.small`
@@ -54,7 +56,7 @@ export const SocialIcons = styled.div`
   display: flex;
   justify-content: space-between;
   align-self: center;
-  width: 240px;
+  width: 20px;
 `
 
 export const SocialIconLink = styled.a`

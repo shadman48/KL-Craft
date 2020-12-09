@@ -6,11 +6,11 @@ import SEO from "../components/seo"
 
 import "../../src/components/layout.css"
 
-const Destinations = () => (
+const About = () => (
   <Layout>
-    <SEO title="Destinations" />
-    <h1 className="destinations">Destinations</h1>
+    <SEO title="About" />
+    <h1 className="about">About Us</h1>
   </Layout>
 )
 
-export default Destinations
+export default About

@@ -1,12 +1,6 @@
 import React from "react"
 
-import {
-  FaFacebook,
-  FaInstagram,
-  FaTwitch,
-  FaTwitter,
-  FaYoutube,
-} from "react-icons/fa"
+import { FaInstagram } from "react-icons/fa"
 import {
   FooterContainer,
   SocialIcon,
@@ -25,31 +19,18 @@ const Footer = () => {
         <SocialMediaWrap>
           <SocialLogo to="/">
             <SocialIcon />
-            EXPLORE
+            KL Crafts
           </SocialLogo>
-          <WebsiteRights>Explore © {new Date().getFullYear()}</WebsiteRights>
           <SocialIcons>
-            <SocialIconLink href="/" target="_blank" aria-label="Facebook">
-              <FaFacebook />
-            </SocialIconLink>
-            <SocialIconLink href="/" target="_blank" aria-label="Instagram">
+            <SocialIconLink
+              href="https://www.instagram.com/kl.crafts/"
+              target="_blank"
+              aria-label="Instagram"
+            >
               <FaInstagram />
             </SocialIconLink>
-            <SocialIconLink
-              href="//https://www.youtube.com/watch?v=ThzUUdIVr_I&t=1483s"
-              target="_blank"
-              aria-label="Youtube"
-              rel="noopener noreferrer"
-            >
-              <FaYoutube />
-            </SocialIconLink>
-            <SocialIconLink href="/" target="_blank" aria-label="Twitch">
-              <FaTwitch />
-            </SocialIconLink>
-            <SocialIconLink href="/" target="_blank" aria-label="Twitter">
-              <FaTwitter />
-            </SocialIconLink>
           </SocialIcons>
+          <WebsiteRights>KL Crafts © {new Date().getFullYear()}</WebsiteRights>
         </SocialMediaWrap>
       </SocialMedia>
     </FooterContainer>
