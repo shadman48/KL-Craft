@@ -10,7 +10,7 @@ function HeroSection() {
     <HeroContainer>
       <HeroBg>
         {/* <VideoBg src={Video} type="video/mp4" autoPlay loop muted playsInline /> */}
-        <VideoBg />
+        {/* <VideoBg /> */}
       </HeroBg>
       <HeroContent>
         <HeroItems>
@@ -59,12 +59,12 @@ const HeroBg = styled.div`
   height: 100%;
   overflow: hidden;
 `
-const VideoBg = styled.video`
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
-`
+// const VideoBg = styled.video`
+//   width: 100%;
+//   height: 100%;
+//   -o-object-fit: cover;
+//   object-fit: cover;
+// `
 const HeroContent = styled.div`
   z-index: 3;
   height: calc(100vh - 80px);

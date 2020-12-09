@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `KL-Crafts`,
     description: `KL Crafts, custom handmade crafts`,
-    author: `@Shadman48`,
+    author: `@shadman48`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
