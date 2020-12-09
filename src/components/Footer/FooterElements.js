@@ -1,4 +1,5 @@
-import { DiScala } from "react-icons/Di"
+// import { DiScala } from "react-icons/Di"
+import { GiBookshelf } from "react-icons/Gi"
 import styled from "styled-components"
 import { Link } from "gatsby"
 
@@ -39,7 +40,7 @@ export const SocialLogo = styled(Link)`
   margin-bottom: 16px;
 `
 
-export const SocialIcon = styled(DiScala)`
+export const SocialIcon = styled(GiBookshelf)`
   margin-right: 10px;
 `
 
