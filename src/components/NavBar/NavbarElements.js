@@ -19,7 +19,7 @@ export const Nav = styled.nav`
 
   @media screen and (max-width: 960px) {
     background: ${({ click }) => (click ? "#fff" : "")};
-    transition: 0.8s all ease;
+    transition: 0.4s all ease;
   }
 `
 
@@ -73,12 +73,12 @@ export const NavMenu = styled.ul`
 
   @media screen and (max-width: 960px) {
     display: flex;
-    flext-direction: column;
+    flex-direction: column;
     width: 100%;
     height: 90vh;
     position: absolute;
     top: ${({ click }) => (click ? "100%" : "-1000px")};
-    opacity: 1;
+    opacity: 0.9;
     transition: all 0.2s ease;
     background: #fff;
   }
@@ -96,12 +96,19 @@ export const NavLinks = styled(Link)`
   padding: 0.5rem 1rem;
   height: 100%;
   /* font-family: "Ubuntu", sans-serif; */
-
+  &:hover {
+    color: red;
+    transition: all 0.3s ease;
+  }
   @media screen and (max-width: 960px) {
+    flex-direction: row;
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
     width: 100%;
-    display: table;
+    font-size: 2rem;
+    font-style: bolder;
+
+    /* display: table; */
 
     &:hover {
       color: #ff4040;
