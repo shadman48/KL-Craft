@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Knight Travel`,
-    description: `Knights Travel website, look for your next vacation here.`,
-    author: `@gatsbyjs`,
+    description: `Knight Travel, helping you find your castle.`,
+    author: `@Shadman48`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -11,7 +11,8 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
+        path: `${__dirname}/src/assets/images`,
+        // path: `${__dirname}/src/images`,
       },
     },
     `gatsby-transformer-sharp`,
@@ -25,7 +26,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/Res/favicon_io/android-chrome-512x512.png`, // This path is relative to the root of the site.
+        icon: `src/assets/favicon_io/android-chrome-512x512.png`, // This path is relative to the root of the site.
       },
     },
     // `gatsby-plugin-sharp`,

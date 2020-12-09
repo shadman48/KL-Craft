@@ -1,5 +1,6 @@
 import styled from "styled-components"
-import { DiScala } from "react-icons/Di"
+// import { DiScala } from "react-icons/Di"
+import { GiMountedKnight } from "react-icons/Gi"
 import { Link } from "gatsby"
 
 export const Nav = styled.nav`
@@ -41,9 +42,12 @@ export const NavLogo = styled(Link)`
   align-items: center;
 `
 
-export const NavIcon = styled(DiScala)`
+export const NavIcon = styled(GiMountedKnight)`
   margin: 0 0.5rem 0 2rem;
 `
+// export const NavIcon = styled(DiScala)`
+//   margin: 0 0.5rem 0 2rem;
+// `
 
 export const MobileIcon = styled.div`
   display: none;
