@@ -9,6 +9,8 @@ video {
 .hero-container {
   /* background: url("../../videos/Castle.mov") center center/ cover no-repeat; */
   /* background: url("../../images/background2.jpg") center center/ cover no-repeat; */
+  background: url("../assets/images/background.jpg") center center/cover
+    no-repeat;
   height: 100vh;
   width: 100%;
   display: flex;

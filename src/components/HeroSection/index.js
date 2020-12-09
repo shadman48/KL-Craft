@@ -2,18 +2,20 @@ import React from "react"
 import { Button } from "../ButtonElements"
 // import "./HeroSection.css"k
 import styled from "styled-components"
-import Video from "../../assets/videos/castleMain.mp4"
+import bgImage from "../../assets/images/background.jpg"
+// import Video from "../../assets/videos/castleMain.mp4"
 
 function HeroSection() {
   return (
     <HeroContainer>
       <HeroBg>
-        <VideoBg src={Video} type="video/mp4" autoPlay loop muted playsInline />
+        {/* <VideoBg src={Video} type="video/mp4" autoPlay loop muted playsInline /> */}
+        <VideoBg />
       </HeroBg>
       <HeroContent>
         <HeroItems>
-          <HeroH1>Castle Book</HeroH1>
-          <HeroP>Find your dream castle.</HeroP>
+          <HeroH1>KL Crafts</HeroH1>
+          <HeroP>Choose your bookshelf</HeroP>
           <Button>Search</Button>
         </HeroItems>
       </HeroContent>
@@ -35,10 +37,12 @@ function HeroSection() {
 export default HeroSection
 
 const HeroContainer = styled.div`
-  background: #0c0c0c;
+  /* background: #0c0c0c; */
+  background: url(${bgImage}) center center/cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
+  /* height: 100%; */
   height: 100vh;
   padding: 0 1rem;
   position: relative;
@@ -66,7 +70,7 @@ const HeroContent = styled.div`
   height: calc(100vh - 80px);
   max-height: 100%;
   padding: 0rem calc((100vw - 1300px) / 2);
-  /* margin-bottom: -25rem; */
+  margin-bottom: -30rem;
 `
 const HeroItems = styled.div`
   display: flex;

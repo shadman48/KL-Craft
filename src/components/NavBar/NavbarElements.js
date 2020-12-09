@@ -1,6 +1,6 @@
 import styled from "styled-components"
 // import { DiScala } from "react-icons/Di"
-import { GiMountedKnight } from "react-icons/Gi"
+import { GiBookshelf } from "react-icons/Gi"
 import { Link } from "gatsby"
 
 export const Nav = styled.nav`
@@ -42,7 +42,7 @@ export const NavLogo = styled(Link)`
   align-items: center;
 `
 
-export const NavIcon = styled(GiMountedKnight)`
+export const NavIcon = styled(GiBookshelf)`
   margin: 0 0.5rem 0 2rem;
 `
 // export const NavIcon = styled(DiScala)`
@@ -95,7 +95,7 @@ export const NavLinks = styled(Link)`
   text-decoration: none;
   padding: 0.5rem 1rem;
   height: 100%;
-  font-family: "Ubuntu", sans-serif;
+  /* font-family: "Ubuntu", sans-serif; */
 
   @media screen and (max-width: 960px) {
     text-align: center;

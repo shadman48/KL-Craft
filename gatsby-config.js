@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Knight Travel`,
-    description: `Knight Travel, helping you find your castle.`,
+    title: `KL-Crafts`,
+    description: `KL Crafts, custom handmade crafts`,
     author: `@Shadman48`,
   },
   plugins: [
