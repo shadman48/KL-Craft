@@ -1,14 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "MedievalSharp", cursive;
+  font-family: "Cinzel", serif;
   /* font-family: "Permanent Marker", cursive; */
 }
 
-.contact {
+/* .contact {
   text-align: center;
   background: url("../assets/images/background.jpg") center center/cover
     no-repeat;
@@ -23,7 +24,7 @@
   margin-top: -80px;
   color: rgb(255, 255, 255);
   font-size: 8rem;
-}
+} */
 
 .about {
   text-align: center;

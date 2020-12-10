@@ -3,13 +3,14 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import ContactForm from "../components/contactForm"
 
 import "../../src/components/layout.css"
 
 const Contact = () => (
   <Layout>
     <SEO title="Contact" />
-    <h1 className="contact">Contact Us</h1>
+    <ContactForm />
   </Layout>
 )
 
