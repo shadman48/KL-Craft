@@ -1,5 +1,5 @@
 // import { DiScala } from "react-icons/Di"
-import { GiBookshelf } from "react-icons/Gi"
+import { GiBookshelf } from "react-icons/gi"
 import styled from "styled-components"
 import { Link } from "gatsby"
 
