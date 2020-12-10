@@ -6,16 +6,16 @@ export const bundleData = [
   {
     img: bundle1,
     alt: "bundles",
-    name: "Pick your covers",
+    name: "Tiny Books",
   },
   {
     img: bundle2,
     alt: "bundles",
-    name: "Pick your type",
+    name: "Book shelves",
   },
   {
     img: bundle3,
     alt: "bundles",
-    name: "Pick your size",
+    name: "Other",
   },
 ]

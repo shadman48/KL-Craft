@@ -4,14 +4,14 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Books from "../components/Books"
-
+import { bookData } from "../components/Books/bookData"
 import "../../src/components/layout.css"
 
-const Contact = () => (
+const Book = () => (
   <Layout>
-    <SEO title="Contact" />
-    <Books />
+    <SEO title="Book" />
+    <Books heading="View Books" data={bookData} />
   </Layout>
 )
 
-export default Contact
+export default Book
