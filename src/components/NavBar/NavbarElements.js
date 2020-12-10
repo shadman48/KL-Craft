@@ -1,6 +1,6 @@
 import styled from "styled-components"
 // import { DiScala } from "react-icons/Di"
-import { GiBookshelf } from "react-icons/Gi"
+import { GiBookshelf } from "react-icons/gi"
 import { Link } from "gatsby"
 
 export const Nav = styled.nav`
