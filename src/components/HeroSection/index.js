@@ -1,6 +1,6 @@
 import React from "react"
 import { Button } from "../ButtonElements"
-// import "./HeroSection.css"
+import { Link } from "gatsby"
 import styled from "styled-components"
 import bgImage from "../../assets/images/background.jpg"
 // import Video from "../../assets/videos/castleMain.mp4"
@@ -16,7 +16,6 @@ function HeroSection() {
         <HeroItems>
           <HeroH1>KL Crafts</HeroH1>
           <HeroP>Choose your bookshelf</HeroP>
-          {/* <Button>Search</Button> */}
         </HeroItems>
       </HeroContent>
     </HeroContainer>

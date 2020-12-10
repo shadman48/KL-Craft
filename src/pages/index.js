@@ -3,14 +3,15 @@ import React from "react"
 import HeroSection from "../components/HeroSection"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
+import Image from "../components/Bundles"
 import SEO from "../components/seo"
+import { bundleData } from "../components/Bundles/bundleData"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <HeroSection />
-    <Image />
+    <Image heading="View Bundles" data={bundleData} />
   </Layout>
 )
 

@@ -63,9 +63,7 @@ const Contact = () => {
           </div>
           {/* {errors.message && <p>{errors.message}</p>} */}
         </div>
-        <button className="form-input-btn" type="submit">
-          Send
-        </button>
+        <button className="form-input-btn">Send</button>
       </form>
     </div>
   )
