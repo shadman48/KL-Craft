@@ -9,7 +9,6 @@ import "../../src/components/layout.css"
 const About = () => (
   <Layout>
     <SEO title="About" />
-    <h1 className="about">About Us</h1>
   </Layout>
 )
 

@@ -1,10 +1,8 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
+// import { useStaticQuery, graphql } from "gatsby"
+// import Img from "gatsby-image"
 // import "./image.css"
 import { Button } from "../ButtonElements"
-import { Link } from "gatsby"
-import styled from "styled-components"
 import {
   BookContainer,
   BookHeading,
@@ -17,8 +15,6 @@ import {
 
 const Book = ({ heading, data }) => {
   return (
-    // <div className="image-container">
-    // <h1>View Bookshelf bundles</h1>
     <BookContainer>
       <BookHeading>{heading}</BookHeading>
       <BookWrapper>

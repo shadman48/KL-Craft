@@ -1,10 +1,10 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
+// import { useStaticQuery, graphql } from "gatsby"
+// import Img from "gatsby-image"
 // import "./image.css"
 import { Button } from "../ButtonElements"
-import { Link } from "gatsby"
-import styled from "styled-components"
+// import { Link } from "gatsby"
+// import styled from "styled-components"
 import {
   ShelvesContainer,
   ShelvesHeading,

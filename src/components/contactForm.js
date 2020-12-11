@@ -1,6 +1,6 @@
 import React from "react"
 import "./contactForm.css"
-import { Button } from "../components/ButtonElements"
+// import { Button } from "../components/ButtonElements"
 
 const Contact = () => {
   return (
@@ -11,7 +11,7 @@ const Contact = () => {
         data-netlify="true"
         data-netlify-honeypot="bot-field"
       >
-        <h1>Contact Us.</h1>
+        <h1>Contact Us</h1>
         <div className="form-inputs">
           <label className="form-label">First name </label>
           <input
@@ -70,13 +70,3 @@ const Contact = () => {
 }
 
 export default Contact
-
-{
-  /* <div className="form-inputs">
-          <input name="First-Name" placeholder="First Name" type="text" />
-        </div>
-        <input name="Last-Name" placeholder="Last Name" type="text" />
-        <input name="Email" placeholder="Your@Email.com" type="email" />
-        <textarea name="Message" placeholder="Enter your message here." />
-        <Button>Send</Button> */
-}

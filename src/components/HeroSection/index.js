@@ -1,6 +1,6 @@
 import React from "react"
-import { Button } from "../ButtonElements"
-import { Link } from "gatsby"
+// import { Button } from "../ButtonElements"
+// import { Link } from "gatsby"
 import styled from "styled-components"
 import bgImage from "../../assets/images/background.jpg"
 // import Video from "../../assets/videos/castleMain.mp4"

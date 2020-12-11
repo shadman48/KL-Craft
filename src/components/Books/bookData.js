@@ -1,6 +1,6 @@
 import book1 from "../../assets/images/bookLine.jpg"
-import book2 from "../../assets/images/shelf.jpg"
-import book3 from "../../assets/images/lunaReading.jpg"
+import book2 from "../../assets/images/book1.jpg"
+import book3 from "../../assets/images/book2.jpg"
 
 export const bookData = [
   {

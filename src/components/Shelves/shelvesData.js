@@ -5,17 +5,17 @@ import shelves3 from "../../assets/images/book5.jpg"
 export const shelvesData = [
   {
     img: shelves1,
-    alt: "shelvess",
+    alt: "shelves",
     name: "Pick your covers",
   },
   {
     img: shelves2,
-    alt: "shelvess",
+    alt: "shelves",
     name: "Pick your type",
   },
   {
     img: shelves3,
-    alt: "shelvess",
+    alt: "shelves",
     name: "Pick your size",
   },
 ]
