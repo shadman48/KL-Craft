@@ -34,6 +34,7 @@ export const BundleCard = styled.div`
 export const BundleImg = styled.img`
   border-radius: 20%;
   height: 300px;
+  object-fit: cover; ///////////////helps fix the aspect ratio
   min-width: 300px;
   max-width: 100%;
   box-shadow: 8px 8px rgba(0, 0, 0, 0.5);
