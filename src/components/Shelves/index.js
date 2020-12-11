@@ -6,36 +6,36 @@ import { Button } from "../ButtonElements"
 import { Link } from "gatsby"
 import styled from "styled-components"
 import {
-  BookContainer,
-  BookHeading,
-  BookWrapper,
-  BookCard,
-  BookImg,
-  BookText,
+  ShelvesContainer,
+  ShelvesHeading,
+  ShelvesWrapper,
+  ShelvesCard,
+  ShelvesImg,
+  ShelvesText,
   OrderBtn,
-} from "./bookElements"
+} from "./shelvesElements"
 
-const Book = ({ heading, data }) => {
+const Shelves = ({ heading, data }) => {
   return (
     // <div className="image-container">
-    // <h1>View Bookshelf bundles</h1>
-    <BookContainer>
-      <BookHeading>{heading}</BookHeading>
-      <BookWrapper>
-        {data.map((book, index) => {
+    // <h1>View Shelvesshelf bundles</h1>
+    <ShelvesContainer>
+      <ShelvesHeading>{heading}</ShelvesHeading>
+      <ShelvesWrapper>
+        {data.map((shelves, index) => {
           return (
-            <BookCard key={index}>
-              <BookImg src={book.img} alt={book.alt} />
-              <BookText>{book.name}</BookText>
-            </BookCard>
+            <ShelvesCard key={index}>
+              <ShelvesImg src={shelves.img} alt={shelves.alt} />
+              <ShelvesText>{shelves.name}</ShelvesText>
+            </ShelvesCard>
           )
         })}
-      </BookWrapper>
+      </ShelvesWrapper>
       <OrderBtn to="/contact">
         <Button>Order</Button>
       </OrderBtn>
-    </BookContainer>
+    </ShelvesContainer>
   )
 }
 
-export default Book
+export default Shelves

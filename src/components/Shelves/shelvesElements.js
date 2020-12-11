@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import { Link } from "gatsby"
 
-export const BookContainer = styled.div`
+export const ShelvesContainer = styled.div`
   width: 100vw;
   min-height: 100vh;
   padding: 5rem calc((100vw-1300px) / 2);
@@ -11,34 +11,34 @@ export const BookContainer = styled.div`
   flex-direction: column;
   align-items: center;
 `
-export const BookHeading = styled.h1`
+export const ShelvesHeading = styled.h1`
   font-size: clamp(2rem, 2.5vw, 3rem);
   color: #000;
   text-align: center;
   padding-top: 5rem;
   margin-bottom: 3rem;
 `
-export const BookWrapper = styled.div`
+export const ShelvesWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto;
 `
-export const BookCard = styled.div`
+export const ShelvesCard = styled.div`
   text-align: center;
   margin: 2rem;
   line-height: 2;
   width: 300px;
 `
 
-export const BookImg = styled.img`
+export const ShelvesImg = styled.img`
   border-radius: 20%;
   height: 300px;
   min-width: 300px;
   max-width: 100%;
   box-shadow: 8px 8px rgba(0, 0, 0, 0.5);
 `
-export const BookText = styled.h2`
+export const ShelvesText = styled.h2`
   font-weight: 400;
   font-size: 1.5rem;
   color: #000;
