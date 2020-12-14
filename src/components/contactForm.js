@@ -7,7 +7,7 @@ const Contact = () => {
     <div className="contact-form-container">
       <form
         className="form"
-        method="post"
+        method="POST"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
       >
