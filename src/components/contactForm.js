@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div className="contact-form-container">
       <form
-        className="form"
+        className="Contact Form"
         method="post"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
@@ -63,7 +63,9 @@ const Contact = () => {
           </div>
           {/* {errors.message && <p>{errors.message}</p>} */}
         </div>
-        <button className="form-input-btn">Send</button>
+        <button type="submit" className="form-input-btn">
+          Send
+        </button>
       </form>
     </div>
   )
