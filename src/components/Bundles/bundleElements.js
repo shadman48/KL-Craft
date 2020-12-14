@@ -49,3 +49,16 @@ export const OrderBtn = styled(Link)`
   width: 5rem;
   margin-bottom: 2rem;
 `
+
+export const NavLinks = styled(Link)`
+  &:hover {
+    color: red;
+    transition: all 0.3s ease;
+  }
+  @media screen and (max-width: 960px) {
+    &:hover {
+      color: #ff4040;
+      transition: all 0.3s ease;
+    }
+  }
+`

@@ -3,6 +3,7 @@ import React from "react"
 // import Img from "gatsby-image"
 // import "./image.css"
 import { Button } from "../ButtonElements"
+import { NavLinks } from "../NavBar/NavbarElements"
 // import { Link } from "gatsby"
 // import styled from "styled-components"
 import {
@@ -16,28 +17,6 @@ import {
 } from "./bundleElements"
 
 const Bundle = ({ heading, data }) => {
-  // const data = useStaticQuery(graphql`
-  //   query {
-  //     allFile(
-  //       filter: {
-  //         extension: { regex: "/(jpg)|(png)|(jpeg)/" }
-  //         name: { nin: ["background", "background3"] }
-  //       }
-  //     ) {
-  //       edges {
-  //         node {
-  //           base
-  //           childImageSharp {
-  //             fluid(maxHeight: 600, maxWidth: 600) {
-  //               ...GatsbyImageSharpFluid
-  //             }
-  //           }
-  //         }
-  //       }
-  //     }
-  //   }
-  // `)
-
   return (
     // <div className="image-container">
     // <h1>View Bookshelf bundles</h1>
@@ -46,10 +25,12 @@ const Bundle = ({ heading, data }) => {
       <BundleWrapper>
         {data.map((bundle, index) => {
           return (
-            <BundleCard key={index}>
-              <BundleImg src={bundle.img} alt={bundle.alt} />
-              <BundleText>{bundle.name}</BundleText>
-            </BundleCard>
+            <NavLinks to={bundle.location}>
+              <BundleCard key={index}>
+                <BundleImg src={bundle.img} alt={bundle.alt} />
+                <BundleText>{bundle.name}</BundleText>
+              </BundleCard>
+            </NavLinks>
           )
         })}
       </BundleWrapper>

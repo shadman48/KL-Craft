@@ -16,6 +16,7 @@ function HeroSection() {
         <HeroItems>
           <HeroH1>KL Crafts</HeroH1>
           <HeroP>Choose your bookshelf</HeroP>
+          <HeroP>This site is under construction.</HeroP>
         </HeroItems>
       </HeroContent>
     </HeroContainer>
