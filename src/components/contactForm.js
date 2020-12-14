@@ -6,11 +6,12 @@ const Contact = () => {
   return (
     <div className="contact-form-container">
       <form
-        className="Contact Form"
+        className="form"
         method="post"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
       >
+        <input type="hidden" name="form-name" value="form" />
         <h1>Contact Us</h1>
         <div className="form-inputs">
           <label className="form-label">First name </label>
