@@ -9,9 +9,10 @@ const Contact = () => {
         className="formContact"
         method="POST"
         data-netlify="true"
-        data-netlify-honeypot="bot-field"
+        // data-netlify-honeypot="bot-field"
+        name="contact"
       >
-        <input type="hidden" name="form-name" value="formContact" />
+        <input type="hidden" name="form-name" value="contact" />
         <h1>Contact Us</h1>
         <div className="form-inputs">
           <label className="form-label">First name </label>
