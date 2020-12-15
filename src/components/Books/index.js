@@ -2,6 +2,7 @@ import React from "react"
 // import { useStaticQuery, graphql } from "gatsby"
 // import Img from "gatsby-image"
 // import "./image.css"
+import { HiBookmark } from "react-icons/Hi"
 import { Button } from "../ButtonElements"
 import {
   BookContainer,
@@ -9,8 +10,11 @@ import {
   BookWrapper,
   BookCard,
   BookImg,
-  BookText,
+  BookDetails,
+  BookTitle,
+  BookInfo,
   OrderBtn,
+  BookIcon,
 } from "./bookElements"
 
 const Book = ({ heading, data }) => {
@@ -22,7 +26,11 @@ const Book = ({ heading, data }) => {
           return (
             <BookCard key={index}>
               <BookImg src={book.img} alt={book.alt} />
-              <BookText>{book.name}</BookText>
+              <BookIcon />
+              <BookDetails>
+                <BookTitle>{book.name}</BookTitle>
+                <BookInfo>{book.info}</BookInfo>
+              </BookDetails>
             </BookCard>
           )
         })}
