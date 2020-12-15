@@ -93,7 +93,7 @@ export const BookImg = styled.img`
     flex-direction: column; */
     min-width: 50px;
     max-width: 100%;
-    height: auto;
+    max-height: auto;
   }
   @media screen and (max-width: 480px) {
     box-shadow: none;
