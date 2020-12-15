@@ -2,9 +2,10 @@ import styled from "styled-components"
 import { Link } from "gatsby"
 import bgImg from "../../assets/images/woodBackground3.jpg"
 
-export const BookContainer = styled.div`
+export const CustomContainer = styled.div`
   background: url(${bgImg}) center center/cover no-repeat;
   margin-top: -80px;
+  object-fit: contain;
   width: 100vw;
   min-height: 100vh;
   padding: 5rem calc((100vw-1300px) / 2);
@@ -26,14 +27,17 @@ export const BookContainer = styled.div`
     height: auto;
   }
 `
-export const BookHeading = styled.h1`
+export const CustomHeading = styled.h1`
+  /* background-color: rgba(255, 255, 255, 0.7); */
+  margin: 80px;
   font-size: clamp(3rem, 2.5vw, 3rem);
   color: #fff;
   text-align: center;
-  padding-top: 5rem;
+  border-radius: 15px;
+  padding: 1rem;
   margin-bottom: 3rem;
 `
-export const BookWrapper = styled.div`
+export const CustomWrapper = styled.div`
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -42,7 +46,7 @@ export const BookWrapper = styled.div`
     margin-left: -1rem;
   }
 `
-export const BookCard = styled.div`
+export const CustomCard = styled.div`
   display: flex;
   text-align: start;
   margin: 2.5rem;
@@ -64,7 +68,7 @@ export const BookCard = styled.div`
   }
 `
 
-export const BookDetails = styled.div`
+export const CustomDetails = styled.div`
   display: inline;
   padding: 2rem;
   margin-left: 0.2rem;
@@ -82,7 +86,7 @@ export const BookDetails = styled.div`
   }
 `
 
-export const BookImg = styled.img`
+export const CustomImg = styled.img`
   border-radius: 15px 5px 5px 15px;
   height: 400px;
   object-fit: cover; ///////////////helps fix the aspect ratio
@@ -105,13 +109,13 @@ export const BookImg = styled.img`
     max-height: auto;
   }
 `
-export const BookTitle = styled.h2`
+export const CustomTitle = styled.h2`
   font-weight: 400;
   font-size: 1.5rem;
   color: #000;
 `
 
-export const BookInfo = styled.p`
+export const CustomInfo = styled.p`
   font-size: 1rem;
 `
 
@@ -119,7 +123,7 @@ export const OrderBtn = styled(Link)`
   width: 5rem;
   margin-bottom: 2rem;
 `
-export const BookIcon = styled.div`
+export const CustomIcon = styled.div`
   background-color: #000;
   border-radius: 4px 4px;
   /* margin-top: -0.25rem; */
