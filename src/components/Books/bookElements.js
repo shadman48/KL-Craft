@@ -1,6 +1,5 @@
 import styled from "styled-components"
 import { Link } from "gatsby"
-import { HiBookmark } from "react-icons/Hi"
 
 export const BookContainer = styled.div`
   width: 100vw;
@@ -11,12 +10,12 @@ export const BookContainer = styled.div`
   flex-direction: column;
   align-items: center;
   @media screen and (max-width: 960px) {
-    display: flex;
-    margin: 2rem;
-    max-width: 100%;
+    /* display: flex; */
+    /* margin: 2rem; */
+    width: 100%;
     height: auto;
     /* flex-direction: column; */
-    padding: 2rem;
+    /* margin: 2rem; */
     /* margin-top: 4rem; */
   }
 `
@@ -33,18 +32,17 @@ export const BookWrapper = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   margin: 1rem;
-  @media screen and (max-width: 960px) {
-    display: flex;
-    flex-direction: column;
-    width: fit-content;
-    height: auto;
-  }
 `
 export const BookCard = styled.div`
-  display: inline-flex;
+  display: flex;
   text-align: start;
   margin: 2.5rem;
   line-height: 2;
+  @media screen and (max-width: 960px) {
+    max-width: 100%;
+    /* max-width: 600px; */
+    height: auto;
+  }
 `
 
 export const BookDetails = styled.div`
@@ -57,20 +55,22 @@ export const BookDetails = styled.div`
   border-radius: 5px 15px 15px 5px;
   box-shadow: 4px 4px rgba(255, 255, 255, 0.6), 8px 8px rgba(255, 255, 255, 0.5),
     13px 13px rgba(0, 0, 0, 1);
-  @media screen and (max-width: 960px) {
-  }
 `
 
 export const BookImg = styled.img`
   border-radius: 15px 5px 5px 15px;
   height: 400px;
   object-fit: cover; ///////////////helps fix the aspect ratio
-  min-width: 400px;
-  max-width: 400px;
+  /* min-width: 400px; */
+  width: 400px;
   box-shadow: -4px 4px rgba(255, 255, 255, 0.6),
     -8px 8px rgba(255, 255, 255, 0.5), -13px 13px rgba(0, 0, 0, 1);
   /* box-shadow: -8px 8px rgba(0, 0, 0, 0.5); */
   @media screen and (max-width: 960px) {
+    /* display: flex;
+    flex-direction: column; */
+    max-width: 100%;
+    height: auto;
   }
 `
 export const BookTitle = styled.h2`
@@ -96,10 +96,6 @@ export const BookIcon = styled.div`
   /* align-items: strech; */
   /* height: 417px; */
   width: 5px;
-  @media screen and (max-width: 960px) {
-    margin-inline: -0.25rem;
-    height: auto;
-  }
 `
 // .image-grid img:hover {
 //   transform: scale(1.1);
