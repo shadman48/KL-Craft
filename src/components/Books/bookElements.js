@@ -18,6 +18,10 @@ export const BookContainer = styled.div`
     /* margin: 2rem; */
     /* margin-top: 4rem; */
   }
+  @media screen and (max-width: 480px) {
+    width: 100%;
+    height: auto;
+  }
 `
 export const BookHeading = styled.h1`
   font-size: clamp(2rem, 2.5vw, 3rem);
@@ -31,7 +35,9 @@ export const BookWrapper = styled.div`
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 1rem;
+  @media screen and (max-width: 480px) {
+    margin-left: -1rem;
+  }
 `
 export const BookCard = styled.div`
   display: flex;
@@ -40,8 +46,18 @@ export const BookCard = styled.div`
   line-height: 2;
   @media screen and (max-width: 960px) {
     max-width: 100%;
+    min-width: 100px;
     /* max-width: 600px; */
     height: auto;
+  }
+  @media screen and (max-width: 480px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5rem;
+    width: 100%;
+    height: auto;
+    text-align: center;
   }
 `
 
@@ -55,6 +71,12 @@ export const BookDetails = styled.div`
   border-radius: 5px 15px 15px 5px;
   box-shadow: 4px 4px rgba(255, 255, 255, 0.6), 8px 8px rgba(255, 255, 255, 0.5),
     13px 13px rgba(0, 0, 0, 1);
+  @media screen and (max-width: 480px) {
+    box-shadow: none;
+    border-radius: 15%;
+    max-width: 80vw;
+    height: auto;
+  }
 `
 
 export const BookImg = styled.img`
@@ -69,8 +91,15 @@ export const BookImg = styled.img`
   @media screen and (max-width: 960px) {
     /* display: flex;
     flex-direction: column; */
+    min-width: 50px;
     max-width: 100%;
     height: auto;
+  }
+  @media screen and (max-width: 480px) {
+    box-shadow: none;
+    max-width: 80vw;
+    border-radius: 15%;
+    max-height: auto;
   }
 `
 export const BookTitle = styled.h2`

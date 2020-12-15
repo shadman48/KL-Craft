@@ -2,7 +2,6 @@ import React from "react"
 // import { useStaticQuery, graphql } from "gatsby"
 // import Img from "gatsby-image"
 // import "./image.css"
-import { HiBookmark } from "react-icons/Hi"
 import { Button } from "../ButtonElements"
 import {
   BookContainer,
